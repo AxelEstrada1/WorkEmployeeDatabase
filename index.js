@@ -1,7 +1,7 @@
 const  inquirer = require ('inquirer');
-const  { viewAllEmployees, addEmployee, updateEmployeeRole } = require ('./lib/employee.js');
-const  { viewAllDepartments, addDepartment } = require ('./lib/department.js');
-const  { viewAllRoles, addRole } = require ('./lib/role.js');
+const  { viewAllEmployees, addEmployee, updateEmployeeRole } = require ('./library/employee.js');
+const  { viewAllDepartments, addDepartment } = require ('./library/department.js');
+const  { viewAllRoles, addRole } = require ('./library/role.js');
 
 const userActions = {
   'View all departments': () => viewAllDepartments(),
